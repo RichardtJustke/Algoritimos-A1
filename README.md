@@ -1,5 +1,3 @@
----
-
 ````md
 # Técnicas de Desenvolvimento de Algoritmos
 
