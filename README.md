@@ -1,20 +1,7 @@
-Perfeito, Justke — entendi exatamente o estilo que tu quer 😎
-Vou te entregar um **README no mesmo padrão do exemplo que tu enviou**, com:
-
-✅ Título
-✅ Descrição geral
-✅ Cada exercício separado
-✅ Como executar
-✅ Exemplo de entrada/saída
-✅ Tudo organizado e **100% no padrão que professor gosta**
-
-Baseado diretamente no modelo do repositório que tu mostrou 
-Agora é só **copiar e colar dentro do teu `README.md`** 👇
-
 ---
 
 ````md
-# TDA_A1 – Técnicas de Desenvolvimento de Algoritmos
+# Técnicas de Desenvolvimento de Algoritmos
 
 Este repositório contém uma coleção de programas em Python que demonstram conceitos fundamentais de programação, desenvolvidos para a Avaliação A1 da disciplina Técnicas de Desenvolvimento de Algoritmos.
 
