@@ -1,106 +1,30 @@
-````md
-# Técnicas de Desenvolvimento de Algoritmos
+# TDA_A1 – Técnicas de Desenvolvimento de Algoritmos
 
-Este repositório contém uma coleção de programas em Python que demonstram conceitos fundamentais de programação, desenvolvidos para a Avaliação A1 da disciplina Técnicas de Desenvolvimento de Algoritmos.
+Este repositório contém programas desenvolvidos em Python para a Avaliação A1 da disciplina Técnicas de Desenvolvimento de Algoritmos. Os exercícios abordam os seguintes conteúdos: Estruturas Condicionais, Estruturas de Repetição, Listas e Dicionários. Cada atividade está organizada em sua própria pasta, conforme solicitado pelo professor.
 
-Cada programa está contido em sua própria pasta, organizado de acordo com o conteúdo estudado.
-````
----
+A estrutura do repositório está organizada da seguinte forma:
 
-## Exercício 1: Verificador de Idade (Condicionais)
+A1-Algoritmos/  
+condicionais/verificacao_idade.py  
+repeticao/pares_1_a_100.py  
+listas/lista_alunos.py  
+dicionarios/cadastro_produtos.py  
+README.md  
 
-Este programa solicita ao usuário a idade mínima para entrada em um evento e, em seguida, verifica se a idade do usuário atende ao requisito.
+O Exercício 1 trata de Estruturas Condicionais e consiste em um programa que solicita a idade do usuário e informa se a entrada em um evento é permitida, negada ou permitida com autorização. Para executar este exercício, utilize o comando:  
+python condicionais/verificacao_idade.py  
+Como exemplo de funcionamento, ao digitar a idade 17 o sistema retorna “Entrada permitida apenas com autorização”, e ao digitar a idade 20 o sistema retorna “Entrada totalmente liberada”.
 
-### Como executar:
-```bash
-python condicionais/verificacao_idade.py
+O Exercício 2 trata de Dicionários e consiste em um sistema simples de cadastro de produtos utilizando dicionário para armazenar nome e preço, permitindo cadastrar e exibir os produtos registrados. Para executar utilize:  
+python dicionarios/cadastro_produtos.py  
+Como exemplo, ao informar o nome “Banana” e o preço “3.50”, o sistema exibe que o produto foi cadastrado com sucesso e, ao listar, mostra “Banana - R$ 3.50”.
 
+O Exercício 3 trata de Listas e consiste em um programa que cadastra nomes de alunos em uma lista e exibe todos ao final. O usuário pode digitar “sair” para finalizar a entrada de dados. Para executar utilize:  
+python listas/lista_alunos.py  
+Como exemplo, ao digitar os nomes “Silas” e “João” e depois “sair”, o sistema exibe a lista com os dois nomes cadastrados.
 
-### Exemplo de Entrada/Saída:
+O Exercício 4 trata de Estruturas de Repetição e consiste em um programa que exibe os números pares de 1 até 100 utilizando os laços for e while. Para executar utilize:  
+python repeticao/pares_1_a_100.py  
+Como resultado, o programa imprime todos os números pares de 2 até 100.
 
-Digite sua idade: 17
-Entrada permitida apenas com autorização.
-
-Digite sua idade: 20
-Entrada totalmente liberada.
-
----
-
-## Exercício 2: Cadastro de Produtos (Dicionários)
-
-Sistema simples de cadastro de produtos que utiliza um dicionário para armazenar nomes e preços. O programa permite adicionar e listar produtos.
-
-### Como executar:
-
-```bash
-python dicionarios/cadastro_produtos.py
-```
-
-### Exemplo de Entrada/Saída:
-
-Digite o nome do produto:
-Banana
-Digite o preço do produto:
-3.50
-Produto cadastrado com sucesso!
-
-Produtos cadastrados:
-Banana - R$ 3.50
-
----
-
-## Exercício 3: Lista de Alunos (Listas)
-
-Este programa coleta uma lista de nomes de alunos informados pelo usuário e exibe todos ao final. O usuário pode digitar "sair" para encerrar.
-
-### Como executar:
-
-```bash
-python listas/lista_alunos.py
-```
-
-### Exemplo de Entrada/Saída:
-
-Digite o nome do aluno (ou 'sair' para finalizar):
-Silas
-Digite o nome do aluno (ou 'sair' para finalizar):
-João
-Digite o nome do aluno (ou 'sair' para finalizar):
-sair
-
-Lista de alunos cadastrados:
-Silas
-João
-
----
-
-## Exercício 4: Números Pares de 1 a 100 (Repetição)
-
-Este script demonstra duas formas diferentes de imprimir números pares de 1 a 100, utilizando um laço `for` e um laço `while`.
-
-### Como executar:
-
-```bash
-python repeticao/pares_1_a_100.py
-```
-
-### Exemplo de Saída:
-
-2
-4
-6
-...
-100
-
----
-
-## Organização do Repositório
-
-O repositório é organizado da seguinte forma:
-
-condicionais/ → Estruturas condicionais
-repeticao/ → Estruturas de repetição
-listas/ → Estrutura de listas
-dicionarios/ → Estrutura de dicionários
-
-Cada pasta contém o respectivo arquivo `.py` com o exercício correspondente.
+As tecnologias utilizadas neste projeto foram Python 3, Git e GitHub. Este projeto foi desenvolvido como atividade avaliativa da disciplina Técnicas de Desenvolvimento de Algoritmos, seguindo todos os critérios de organização, documentação e funcionamento dos códigos.
