@@ -4,7 +4,7 @@
 Este repositório contém uma coleção de programas em Python que demonstram conceitos fundamentais de programação, desenvolvidos para a Avaliação A1 da disciplina Técnicas de Desenvolvimento de Algoritmos.
 
 Cada programa está contido em sua própria pasta, organizado de acordo com o conteúdo estudado.
-
+````
 ---
 
 ## Exercício 1: Verificador de Idade (Condicionais)
@@ -14,7 +14,7 @@ Este programa solicita ao usuário a idade mínima para entrada em um evento e, 
 ### Como executar:
 ```bash
 python condicionais/verificacao_idade.py
-````
+
 
 ### Exemplo de Entrada/Saída:
 
