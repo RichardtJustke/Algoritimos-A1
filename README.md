@@ -1,19 +1,43 @@
-```md
-# 🐍 Projetos em Python – Fundamentos de Programação
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projetos em Python – Fundamentos da Programação</title>
+</head>
+<body>
+  <h1>🐍 Projetos em Python – Fundamentos da Programação</h1>
 
-Este repositório reúne todos os projetos e exercícios desenvolvidos durante o estudo de **lógica de programação em Python**. Ele inclui tanto exercícios individuais de cada conteúdo quanto um projeto prático completo (o Mercadinho), que une todos esses conceitos em um único sistema funcional.
+  <p>
+    Este repositório reúne as atividades práticas desenvolvidas durante o estudo de lógica de programação em Python,
+    juntamente com um projeto final que une todos os conceitos em um único sistema funcional: o Mercadinho.
+  </p>
+  <p>
+    As atividades foram criadas para praticar os fundamentos da programação separadamente, e o projeto final foi desenvolvido
+    para aplicar tudo em um contexto real, simulando um sistema de mercado no terminal.
+  </p>
 
-A proposta deste repositório é mostrar, na prática, como os principais fundamentos da programação funcionam juntos dentro de um programa real.
+  <hr />
 
----
+  <h2>🎯 Objetivo das Atividades</h2>
+  <p>
+    O principal objetivo dessas práticas foi transformar a teoria em algo prático, entendendo como:
+  </p>
+  <ul>
+    <li>As decisões são tomadas dentro de um sistema</li>
+    <li>Os dados são armazenados e organizados</li>
+    <li>As repetições automatizam tarefas</li>
+    <li>O usuário interage com o programa</li>
+    <li>Os cálculos acontecem de forma automática</li>
+  </ul>
+  <p>
+    Cada atividade trabalha um conceito específico, e ao final todos eles são utilizados juntos no projeto do Mercadinho.
+  </p>
 
-## 📁 Estrutura do Repositório
+  <hr />
 
-A organização dos arquivos foi feita por conteúdo, da seguinte forma:
+  <h2>📁 Estrutura do Repositório</h2>
 
-```
-
-A1-Algoritmos/
+  <pre><code>A1-Algoritmos/
 ├── condicionais/
 │   └── verificacao_idade.py
 ├── repeticao/
@@ -24,148 +48,185 @@ A1-Algoritmos/
 │   └── cadastro_produtos.py
 ├── mercadinho.py
 └── README.md
+  </code></pre>
 
-````
+  <hr />
 
-Cada pasta representa um conteúdo específico estudado, além do projeto final que une tudo.
+  <h2>✅ Práticas Desenvolvidas</h2>
 
----
+  <h3>1️⃣ Estruturas Condicionais – Verificação de Idade</h3>
+  <p>
+    Nesta prática foi desenvolvido um programa que solicita a idade do usuário e decide se ele pode entrar em um evento ou não.
+  </p>
+  <p>Com isso, foi praticado:</p>
+  <ul>
+    <li>Tomada de decisão</li>
+    <li>Uso de <code>if</code>, <code>elif</code> e <code>else</code></li>
+    <li>Entrada de dados pelo usuário</li>
+  </ul>
 
-## ✅ Conteúdos e Projetos
+  <h3>2️⃣ Estruturas de Repetição – Números Pares</h3>
+  <p>
+    Nesta atividade o sistema exibe os números pares de 1 até 100 utilizando <code>for</code> e <code>while</code>.
+  </p>
+  <p>Aqui foi possível aprender:</p>
+  <ul>
+    <li>Repetição automática de tarefas</li>
+    <li>Controle de laços</li>
+    <li>Uso de operadores matemáticos</li>
+  </ul>
 
-### 1️⃣ Estruturas Condicionais – Verificação de Idade  
-Arquivo: `condicionais/verificacao_idade.py`  
+  <h3>3️⃣ Listas – Cadastro de Alunos</h3>
+  <p>
+    Foi criado um programa que permite cadastrar vários nomes de alunos e exibi-los no final.
+  </p>
+  <p>Nesta prática foi trabalhado:</p>
+  <ul>
+    <li>Armazenamento de vários dados em uma lista</li>
+    <li>Entrada contínua de dados</li>
+    <li>Laços de repetição para controle do cadastro</li>
+  </ul>
 
-Programa que solicita a idade do usuário e informa se ele pode ou não entrar em um evento.  
-Neste exercício foi praticado:
-- Uso de `if`, `elif` e `else`
-- Entrada de dados com `input`
-- Tomada de decisão no sistema
+  <h3>4️⃣ Dicionários – Cadastro de Produtos</h3>
+  <p>
+    Nesta atividade foi criado um sistema simples de cadastro de produtos utilizando dicionário.
+  </p>
+  <p>Aqui foi aprendido:</p>
+  <ul>
+    <li>Organização de dados em chave e valor</li>
+    <li>Armazenamento de nome e preço</li>
+    <li>Exibição estruturada das informações</li>
+  </ul>
 
-Execução:
-```bash
-python condicionais/verificacao_idade.py
-````
+  <hr />
 
----
+  <h2>🛒 Projeto Final – Sistema de Mercadinho em Python</h2>
+  <p><strong>Arquivo:</strong> <code>mercadinho.py</code></p>
 
-### 2️⃣ Estruturas de Repetição – Números Pares de 1 a 100
+  <p>
+    Este sistema foi criado pensando em pequenos mercadinhos, lojinhas de bairro ou negócios simples que não possuem um sistema
+    de cadastro e controle de compras. Em muitos desses lugares, tudo ainda é feito no papel, o que pode causar erros de soma,
+    confusão nos valores e falta de organização.
+  </p>
+  <p>
+    O sistema resolve esse problema funcionando como um <strong>caixa simples no computador</strong>, onde é possível cadastrar
+    produtos, listar os itens disponíveis e realizar compras com cálculo automático do valor total.
+  </p>
 
-Arquivo: `repeticao/pares_1_a_100.py`
+  <h3>👤 Para quem esse sistema resolve o problema</h3>
+  <ul>
+    <li>Pequenos comerciantes</li>
+    <li>Lojinhas de bairro</li>
+    <li>Estudantes que querem entender como funciona um sistema real</li>
+    <li>Qualquer pessoa que queira simular um caixa simples</li>
+  </ul>
 
-Programa que exibe todos os números pares de 1 até 100 utilizando dois tipos de laços:
+  <h3>🔄 Como o sistema funciona na prática</h3>
+  <ol>
+    <li>O operador cadastra os produtos com nome e preço</li>
+    <li>Os produtos ficam armazenados no sistema</li>
+    <li>Quando um cliente vai comprar, o operador escolhe os produtos pelo número</li>
+    <li>Cada item selecionado é somado automaticamente</li>
+    <li>Ao finalizar, o sistema mostra o total da compra</li>
+    <li>O operador pode iniciar outra compra ou encerrar o sistema</li>
+  </ol>
 
-* `for`
-* `while`
+  <h3>🧱 Organização dos Dados no Sistema</h3>
+  <p>
+    Os produtos são armazenados em uma lista, onde cada produto é um dicionário com nome e preço:
+  </p>
 
-Neste exercício foi praticado:
-
-* Laços de repetição
-* Operadores matemáticos
-* Controle de fluxo
-
-Execução:
-
-```bash
-python repeticao/pares_1_a_100.py
-```
-
----
-
-### 3️⃣ Listas – Cadastro de Alunos
-
-Arquivo: `listas/lista_alunos.py`
-
-Programa que permite cadastrar nomes de alunos em uma lista e exibe todos ao final.
-O usuário pode digitar "sair" para encerrar a entrada de dados.
-
-Neste exercício foi praticado:
-
-* Uso de listas
-* Entrada dinâmica de dados
-* Laço de repetição para leitura contínua
-
-Execução:
-
-```bash
-python listas/lista_alunos.py
-```
-
----
-
-### 4️⃣ Dicionários – Cadastro de Produtos
-
-Arquivo: `dicionarios/cadastro_produtos.py`
-
-Sistema simples de cadastro de produtos utilizando um dicionário para armazenar nome e preço.
-
-Neste exercício foi praticado:
-
-* Uso de dicionários
-* Organização de dados por chave e valor
-* Exibição dos dados cadastrados
-
-Execução:
-
-```bash
-python dicionarios/cadastro_produtos.py
-```
-````md
-## 🛒 Projeto Final – Mercadinho em Python  
-Arquivo: `mercadinho.py`
-
-Este é o projeto principal do repositório e representa a aplicação prática de todos os conceitos estudados nos exercícios anteriores. Diferente dos outros arquivos, que trabalham conteúdos de forma isolada, o Mercadinho une tudo em um único sistema funcional, simulando um pequeno mercado no terminal.
-
-A escolha desse projeto foi proposital: ele aproxima o estudo da programação de uma situação real, onde é necessário cadastrar dados, exibir informações, validar opções do usuário e realizar cálculos automaticamente.
-
-O sistema funciona por meio de um menu interativo que permanece ativo até o usuário decidir sair.
-
-### Funcionalidades do Mercadinho
-
-- Cadastro de produtos com nome e preço  
-- Listagem de todos os produtos cadastrados  
-- Simulação de compra de múltiplos produtos  
-- Cálculo automático do valor total da compra  
-- Validação de opções inválidas  
-- Finalização segura da compra  
-
-### Como funciona internamente
-
-Os produtos são armazenados em uma lista, onde cada produto é representado por um dicionário contendo duas informações: nome e preço. Esse formato permite organizar os dados de forma simples e eficiente:
-
-```python
-[
+  <pre><code>[
   {"nome": "Arroz", "preco": 25.0},
   {"nome": "Feijão", "preco": 9.5}
 ]
-````
+  </code></pre>
 
-Durante a compra, o sistema exibe todos os produtos disponíveis e o usuário seleciona os itens pelo número correspondente. Cada escolha adiciona automaticamente o valor ao total da compra. Ao digitar 0, a compra é encerrada e o valor final é exibido.
+  <h3>▶️ Como Executar o Sistema</h3>
+  <pre><code>python mercadinho.py
+  </code></pre>
 
-### Como executar o Mercadinho
+  <p>Ao iniciar, o sistema exibe o menu:</p>
 
-```bash
-python mercadinho.py
-```
-
-Ao executar, o sistema exibe automaticamente o menu:
-
-```
-=== MERCADINHO DO JUSTKE 💸 ===
+  <pre><code>=== MERCADINHO DO JUSTKE 💸 ===
 1 - Cadastrar produto
 2 - Listar produtos
 3 - Comprar produtos
 4 - Sair
-```
+  </code></pre>
 
-### Objetivo do Mercadinho dentro do projeto
+  <hr />
 
-O Mercadinho tem como objetivo consolidar o aprendizado, mostrando como listas, dicionários, condicionais, laços de repetição, entrada de dados e cálculos funcionam juntos dentro de um único sistema. Ele marca a transição dos exercícios básicos para a construção de um programa completo e funcional.
+  <h2>🧠 O Que Foi Aprendido com o Projeto</h2>
+  <p>
+    Com este repositório foi possível aprender, na prática:
+  </p>
+  <ul>
+    <li>Como funciona um sistema real por dentro</li>
+    <li>Como os dados são cadastrados e armazenados</li>
+    <li>Como o usuário interage com o sistema</li>
+    <li>Como validar opções inválidas</li>
+    <li>Como realizar cálculos automaticamente</li>
+    <li>Como organizar um projeto em pastas</li>
+    <li>Como documentar um projeto com README</li>
+    <li>Como subir um projeto no GitHub</li>
+  </ul>
 
-```
+  <hr />
 
-## 🎯 Objetivo do Repositório
+  <h2>🧩 Pseudocódigo do Sistema do Mercadinho</h2>
 
-Este repositório tem como objetivo fortalecer a base da programação em Python, passando por cada conceito separadamente e depois aplicando tudo em um projeto completo.
+  <pre><code>iniciar lista de produtos vazia
 
-Ele representa a transição do aprendizado teórico para a prática real, com sistemas funcionando de verdade.
+enquanto o sistema estiver ativo:
+    mostrar menu
+
+    se opção for cadastrar:
+        pedir nome
+        pedir preço
+        salvar produto na lista
+
+    se opção for listar:
+        se não houver produtos:
+            mostrar aviso
+        senão:
+            mostrar todos os produtos
+
+    se opção for comprar:
+        se não houver produtos:
+            mostrar aviso
+        senão:
+            iniciar total da compra
+            mostrar produtos
+            enquanto não finalizar:
+                pedir número do produto
+                se número for válido:
+                    somar preço ao total
+                senão:
+                    avisar erro
+            mostrar total final
+
+    se opção for sair:
+        encerrar sistema
+  </code></pre>
+
+  <hr />
+
+  <h2>🛠️ Tecnologias Utilizadas</h2>
+  <ul>
+    <li>Python 3</li>
+    <li>Terminal</li>
+    <li>Git</li>
+    <li>GitHub</li>
+  </ul>
+
+  <hr />
+
+  <h2>✅ Conclusão</h2>
+  <p>
+    Este repositório representa a evolução do aprendizado da lógica de programação, saindo de exercícios isolados até a
+    construção de um sistema completo que resolve um problema real. Ele demonstra, na prática, como os conceitos básicos da
+    programação se conectam para formar um sistema funcional.
+  </p>
+</body>
+</html>
