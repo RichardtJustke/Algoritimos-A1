@@ -113,44 +113,48 @@ python dicionarios/cadastro_produtos.py
 
 ---
 
-## 🛒 Projeto Final – Mercadinho em Python
+Boa — vamos **dar um upgrade só na parte do Mercadinho**, deixando mais clara, mais madura e sem blá blá blá, do jeito que tu pediu 😎
+👉 **Substitui APENAS a seção do Mercadinho no teu README por esta aqui abaixo:**
 
+````md
+## 🛒 Projeto Final – Mercadinho em Python  
 Arquivo: `mercadinho.py`
 
-Este projeto simula um pequeno mercado funcionando no terminal. Ele foi criado para unir todos os conceitos estudados em um único sistema prático e funcional.
+Este é o projeto principal do repositório e representa a aplicação prática de todos os conceitos estudados nos exercícios anteriores. Diferente dos outros arquivos, que trabalham conteúdos de forma isolada, o Mercadinho une tudo em um único sistema funcional, simulando um pequeno mercado no terminal.
 
-O mercadinho permite:
+A escolha desse projeto foi proposital: ele aproxima o estudo da programação de uma situação real, onde é necessário cadastrar dados, exibir informações, validar opções do usuário e realizar cálculos automaticamente.
 
-* Cadastrar produtos (nome e preço)
-* Listar os produtos cadastrados
-* Simular uma compra com vários produtos
-* Calcular e exibir o total da compra
-* Navegar por um menu interativo no terminal
+O sistema funciona por meio de um menu interativo que permanece ativo até o usuário decidir sair.
 
-A ideia do projeto é sair dos exercícios isolados e aplicar tudo em uma situação real de uso.
+### Funcionalidades do Mercadinho
 
----
+- Cadastro de produtos com nome e preço  
+- Listagem de todos os produtos cadastrados  
+- Simulação de compra de múltiplos produtos  
+- Cálculo automático do valor total da compra  
+- Validação de opções inválidas  
+- Finalização segura da compra  
 
-## 🧱 Organização dos Dados no Mercadinho
+### Como funciona internamente
 
-Os produtos são armazenados dentro de uma lista, onde cada item é um dicionário com nome e preço:
+Os produtos são armazenados em uma lista, onde cada produto é representado por um dicionário contendo duas informações: nome e preço. Esse formato permite organizar os dados de forma simples e eficiente:
 
 ```python
 [
   {"nome": "Arroz", "preco": 25.0},
   {"nome": "Feijão", "preco": 9.5}
 ]
-```
+````
 
----
+Durante a compra, o sistema exibe todos os produtos disponíveis e o usuário seleciona os itens pelo número correspondente. Cada escolha adiciona automaticamente o valor ao total da compra. Ao digitar 0, a compra é encerrada e o valor final é exibido.
 
-## ▶️ Como Executar o Mercadinho
+### Como executar o Mercadinho
 
 ```bash
 python mercadinho.py
 ```
 
-Ao executar, o menu aparece automaticamente no terminal:
+Ao executar, o sistema exibe automaticamente o menu:
 
 ```
 === MERCADINHO DO JUSTKE 💸 ===
@@ -160,40 +164,14 @@ Ao executar, o menu aparece automaticamente no terminal:
 4 - Sair
 ```
 
-O usuário navega pelo sistema digitando apenas os números das opções.
+### Objetivo do Mercadinho dentro do projeto
 
----
+O Mercadinho tem como objetivo consolidar o aprendizado, mostrando como listas, dicionários, condicionais, laços de repetição, entrada de dados e cálculos funcionam juntos dentro de um único sistema. Ele marca a transição dos exercícios básicos para a construção de um programa completo e funcional.
 
-## 🧠 Conceitos Trabalhados no Repositório
-
-Ao longo de todos os arquivos, foram utilizados:
-
-* Listas
-* Dicionários
-* Estruturas condicionais (`if`, `elif`, `else`)
-* Laços de repetição (`for`, `while`)
-* Entrada de dados (`input`)
-* Conversão de tipos (`int`, `float`)
-* Validação de dados
-* Lógica para soma e controle de fluxo
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-* Python 3
-* Terminal
-* Git
-* GitHub
-
----
+```
 
 ## 🎯 Objetivo do Repositório
 
 Este repositório tem como objetivo fortalecer a base da programação em Python, passando por cada conceito separadamente e depois aplicando tudo em um projeto completo.
 
 Ele representa a transição do aprendizado teórico para a prática real, com sistemas funcionando de verdade.
-
-```
-
-
