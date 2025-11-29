@@ -46,7 +46,8 @@
 │   └── lista_alunos.py
 ├── dicionarios/
 │   └── cadastro_produtos.py
-├── mercadinho.py
+├── projetos/
+│   └── mercadinho.py
 └── README.md
   </code></pre>
 
