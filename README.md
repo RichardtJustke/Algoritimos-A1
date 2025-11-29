@@ -110,12 +110,6 @@ Execução:
 ```bash
 python dicionarios/cadastro_produtos.py
 ```
-
----
-
-Boa — vamos **dar um upgrade só na parte do Mercadinho**, deixando mais clara, mais madura e sem blá blá blá, do jeito que tu pediu 😎
-👉 **Substitui APENAS a seção do Mercadinho no teu README por esta aqui abaixo:**
-
 ````md
 ## 🛒 Projeto Final – Mercadinho em Python  
 Arquivo: `mercadinho.py`
